@@ -17,12 +17,12 @@ env:
   REPO_DIR : ${{github.workspace}}
   BUILD_DIR: ${{github.workspace}}/bin/builddir
   BOOST_TOOLSET: "msvc14.2"
-  BOOST_VERSION: "1.72.0"
+  BOOST_VERSION: "1.64.0"
   BOOST_INSTALL_DIR: "${{github.workspace}}/bin"
   
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: windows-2017
     
     steps:
     #git checkout
