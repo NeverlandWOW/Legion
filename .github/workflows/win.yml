@@ -82,7 +82,7 @@ jobs:
         cd $GITHUB_WORKSPACE
         
         mkdir -p build && cd build
-      cmake --build . --config RelWithDebInfo --parallel 4
+
       #git bash shell
       shell: bash
     - name: Create Upload File Name
