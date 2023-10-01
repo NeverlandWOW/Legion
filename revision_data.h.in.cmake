@@ -11,10 +11,10 @@
  #define _MYSQL_EXECUTABLE          R"(@MYSQL_EXECUTABLE@)"
  #define _FULL_DATABASE             "LegionCore_world"
  #define _HOTFIXES_DATABASE         "LegionCore_hotfixes"
- #define VER_COMPANYNAME_STR        "LegionCore"
- #define VER_LEGALCOPYRIGHT_STR     "(c)2020 LegionCore"
+ #define VER_COMPANYNAME_STR        "Legends of Azeroth core"
+ #define VER_LEGALCOPYRIGHT_STR     "(c)2023 Legends of Azeroth core"
  #define VER_FILEVERSION            0,0,0
- #define VER_FILEVERSION_STR        "LegionCore 2020-04-25"
+ #define VER_FILEVERSION_STR        "LegionCore 2023-10-01"
  #define VER_PRODUCTVERSION         VER_FILEVERSION
  #define VER_PRODUCTVERSION_STR     VER_FILEVERSION_STR
 #endif // __REVISION_DATA_H__
