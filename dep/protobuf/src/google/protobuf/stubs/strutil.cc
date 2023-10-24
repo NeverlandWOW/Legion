@@ -49,7 +49,9 @@
 // trailing zeros after the decimal point.  For some reason this bug only
 // occurs with some input values, not all.  In any case, _snprintf does the
 // right thing, so we use it.
+#if defined(_MSC_VER) && _MSC_VER < 1500 // VC++ 8.0 and below
 #define snprintf _snprintf
+#endif
 #endif
 
 namespace google {
